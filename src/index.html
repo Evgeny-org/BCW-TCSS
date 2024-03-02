@@ -1,17 +1,146 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../../../src/output.css" rel="stylesheet">
-</head>
-<body class="bg-black">
-  <h1 class="font-mono text-blue-600">
-    Hello world!!!!!
-  </h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/slider.css">
+    <link href="../../../src/output.css" rel="stylesheet">
+  </head>
 
-<h1 class="font-mono">
-    Hello world!
-  </h1>
-</body>
+  <body class="font-TNR bg-black">
+    <header class="relative z-10 bg-purple mb-24 overflow-hidden"> <!-- Задаём задний фон из файла config и параметры к нему -->
+      <div class="bg-headerBack bg-no-repeat bg-100% h-[1080px] bg-auto bg-center 2xl:bg-cover 2xl:bg-left">
+        <div class="container px-8">
+
+          <nav class="flex justify-between items-center mb-36 2xl:mb-48">
+            <a href="#" class="text-logoSize tracking-wider text-purple" style="-webkit-text-stroke: 1px #000">
+              SAZEEDR
+            </a>
+            <ul class="text-2xl text-white flex">
+              <li><a href="#">Кто я?</a></li>
+              <li><a href="#">Мои работы</a></li>
+              <li><a href="#">Моя группа</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <div class="w-[70%] xl:w-[60%] 2xl:w-[50%] ml-auto p-10 bg-[rgba(0,0,0,.5)]">
+            <h1 class="text-white text-6xl mb-10">Кто я?</h1>
+            <hr class="w-24 h-1.5 bg-white mb-10">
+            <p class="text-3xl text-white leading-normal tracking-wide text-justify">Привет, меня зовут Иван (псевд. «sazy») и я райтер. Я занимаюсь "Граффити" с 2018 года и по сей день постоянно совершенствую свои навыки. На данный момент, в коллекции моих работ более 50 готовых холстов. Вместе со своими друзьями мы продвигаем это дело и у нас есть своя группа "EDR", где мы публикуем наши работы и другие интересные материалы.</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="absolute top-[15%] left-[-8%] xl:left-[0] 2xl:left-[12.5%] z-[-10] bg-headerBackAvatar bg-no-repeat w-[1000px] h-[1000px]"></div>
+    </header>
+
+    <main class="relative">
+      <h1 class="text-center text-white text-6xl mb-10">Мои работы</h1>
+      <hr class="relative w-24 h-1.5 bg-white mb-10 mx-auto mb-[100px]">
+
+      <!-- Slider -->
+      <div id="contentContainer" class="trans3d"> 
+        <section id="carouselContainer" class="trans3d">
+          <figure id="item1" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/1.jpg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item2" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/2.png" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item3" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/3.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item4" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/4.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item5" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/5.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item6" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/6.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item7" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/7.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item8" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/8.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item9" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/9.png" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item10" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/10.png" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item11" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/11.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+          <figure id="item12" class="carouselItem trans3d">
+            <div class="carouselItemInner trans3d">
+              <img src="../img/Slider/12.jpeg" alt="" width="100%">
+            </div>
+          </figure>
+        </section>
+      </div>
+      <!-- ------ -->
+
+      <h1 class="text-center text-white text-6xl mb-10">Моя группа</h1>
+      <hr class="relative w-24 h-1.5 bg-white mb-10 mx-auto mb-24">
+      <div class="container flex items-center mb-20 px-8">
+        <div class="w-1/2">
+          <h1 class="text-white text-5xl mb-10 font-semibold">Telegram</h1>
+          <hr class="w-24 h-1 bg-white mb-8">
+          <p class="text-3xl text-white leading-normal tracking-wide">У меня есть группа в Telegram, которую я активно веду. В ней я публикую ...</p>
+        </div>
+        <div class="w-1/2">
+          <img class="mx-auto" src="../img/phone_14_01.png" alt="">
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container flex justify-start p-8 ">
+        <a href="#" class="w-12 mr-10">
+          <img src="../img/icons/tMe.png" alt="">
+        </a>
+         <a href="#" class="w-12 mr-10">
+          <img src="../img/icons/vK.png" alt="">
+        </a>
+         <a href="#" class="w-12 mr-10">
+          <img src="../img/icons/Inst.png" alt="">
+        </a>
+      </div>
+    </footer>
+
+    <!-- Slider -->
+    <script src='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/js/libs.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <script src="../js/slider.js"></script>
+    <!-- ------ -->
+  </body>
+
 </html>

@@ -1,6 +1,9 @@
 Business Card Website (сайт - визитка)
 TCSS - Tilewind CSS (CSS - фреймворк)
 
+Запуск Tailwind (находясь в нужно директории): 
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
 Цвета:
 	#fff - белый
 	#000 - черный
@@ -27,4 +30,9 @@ Nav:
 	Также, я хочу попробовать сделать красивую анимацию фигуры в css, как back для фото - авы Вани на сайте ❌;
 	Подобрать красивый slider ✅ / swiper ❌ работ Вани;
 	
-	
+Стеки:
+	- HTML (Kit) / CSS (Sass) / JS
+	- Фреймворк Tailwind CSS
+	- Figma
+	- Adobe Photoshop
+	- GitHub
