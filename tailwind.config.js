@@ -5,7 +5,7 @@ module.exports = {
     extend: {
 
       backgroundImage: {
-        'headerBack': "url('../img/Слой 1.png')",
+        'headerBack': "url('../img/Sloi1.png')",
         'headerBackAvatar': "url('../img/Ivan.png')",
       },
 
